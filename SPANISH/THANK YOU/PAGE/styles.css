@@ -1,0 +1,157 @@
+/* Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* Global Styles */
+
+body {
+	font-family: 'Open Sans';
+}
+
+header {
+	height: 100px;
+	background-color: #fff;
+}
+
+header img {
+	margin-top: 17px;
+}
+
+img.full-width-img {
+	width:100%;
+}
+
+img.offset-cta {
+	margin-left: -30px;
+}
+
+.blue-text {
+	color: #0f3250;
+}
+
+.row.marquee {
+	background-image:url('../images/aruba-thankyou-header.png');
+	min-height: 700px;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.row.marquee .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.row.marquee .container h1 {
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.row.marquee .container h2 {
+	font-size: 40px;
+	font-weight: 600;
+	width: 66%;
+}
+
+.row.marquee .container h3 {
+	color: #FFF;
+	font-size: 28px;
+}
+
+.header-copy {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link-text {
+	width: 50%;
+}
+
+li {
+	color: #ff8300;
+	font-size: 16px;
+	padding-bottom: 0.75em;
+	padding-right: 2em;
+}
+
+li span {
+	color: #646569;
+}
+
+footer {
+	background-color: #f6f6f6;
+	font-size: 14px;
+}
+
+footer a {
+	color: #646569
+}
+
+.row.footer-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+div.legal-links ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+	header {
+		text-align: center;
+	}
+
+	.row.headline {
+		padding: 0 1em;
+	}
+ 
+	.row.headline  h1{
+		font-size: 22px;
+	}
+
+	.row.content {
+		padding: 0 1em;
+	}
+
+	.row.content h2 {
+		width: 100%;
+	}
+
+	div.legal-links ul {
+		padding-top: 2em;
+	}
+
+	div.legal-links ul li {
+		text-align: center;
+		width: 100%;
+	}
+
+	div.legal-strap {
+		text-align: center;
+	}
+
+	footer {
+		padding: 0 1em 2em 1em ;
+	}
+
+	.row.marquee .container h1 {
+		font-size: 30px;
+		font-weight: 900;
+	}
+
+	.row.marquee .container h2 {
+		font-size: 32px;
+		font-weight: 600;
+		width: 100%;
+	}
+
+	.row.marquee .container h3 {
+		color: #0f3250;
+		font-size: 28px;
+	}
+}
